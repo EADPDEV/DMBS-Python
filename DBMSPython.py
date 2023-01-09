@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import pymysql
 
-# Conector a la base de datos
+# Conector al servidor de la base de datos
 
 miConexion = pymysql.connect( host='tu_host', user='tu_usuario', passwd='tu_contraseña', db='tu_bd' )
 
